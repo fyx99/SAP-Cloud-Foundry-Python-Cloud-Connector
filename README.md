@@ -10,11 +10,15 @@ This repository contains two Python scripts demonstrating how to use the Connect
 
 ### Establish connectivity to the Connectivity Service proxy host for local testing:
 
-cf ssh -L 8888:connectivityproxy.internal.cf.sap.hana.ondemand.com:20003 myapp
+```bash
+cf ssh -L 8888:connectivityproxy.internal.cf.sap.hana.ondemand.com:20003 myapp 
+```
 
 ### Deploy Task Example:
 
-cf push cloud_connector_test_task --task
+```bash 
+cf push cloud_connector_test_task --task```
 
 cf run-task cloud_connector_test_task --command "python tcp_app.py" --name example_task
 cf logs cloud_connector_test_task --recent
+```
