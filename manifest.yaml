@@ -1,0 +1,5 @@
+---
+applications:
+- name: cloud_connector_test_task
+  memory: 128MB
+  buildpack: python_buildpack
