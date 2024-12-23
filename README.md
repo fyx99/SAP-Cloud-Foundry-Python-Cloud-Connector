@@ -1,6 +1,13 @@
 # SAP Cloud Foundry Python Cloud Connector
 
-This respository provides a few examples on how to use the SAP Cloud Connector to connect to on-premises systems from SAP Cloud Foundry.
+This repository contains example implementations demonstrating how to use the **SAP Cloud Connector** to connect to on-premises systems from **SAP Cloud Foundry**.
+
+For detailed explanations and step-by-step guides, refer to the following blog posts:
+
+- [SAP Cloud Foundry: Python and Cloud Connector (HTTP)](https://community.sap.com/t5/technology-blogs-by-sap/sap-cloud-foundry-python-and-cloud-connector-http/ba-p/13965916)  
+- [SAP Cloud Foundry: Python and Cloud Connector (TCP)](https://community.sap.com/t5/technology-blogs-by-sap/sap-cloud-foundry-python-and-cloud-connector-tcp/ba-p/13967140)  
+- [Hybrid Local Development with SAP Cloud Foundry: Access On-Premises APIs via Cloud Connector](https://community.sap.com/t5/technology-blogs-by-sap/hybrid-local-development-with-sap-cloud-foundry-access-on-premises-apis-via/ba-p/13967660)  
+
 
 ## Content:
 
